@@ -1,0 +1,53 @@
+% --------------- CREDIT ------------------------
+% This template is made by K M Shariat Ullah
+% Official Ambassador of IAAC and also a student
+% Shahjalal University of Science and Technology
+% ------------------------------------------------
+
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+
+\geometry{margin=1in}
+
+\newcommand{\participantName}{K M Shariat Ullah} % <-- Change this when needed
+\newcommand{\logoPath}{figures/logo_black_small.png} 
+\pagestyle{plain}
+
+\titleformat{\section}{\Large\bfseries}{Problem \thesection:}{1em}{}
+
+\begin{document}
+
+% -------------------- COVER PAGE --------------------
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    \includegraphics[width=0.3\textwidth]{\logoPath}\par\vspace{1cm}
+    {\large\bfseries International Astronomy and Astrophysics Competition\par}
+    {\Large\bfseries Pre-Final Round 2025\par}
+    \vspace{2cm}
+    {\LARGE\participantName\par}
+    \vfill
+    \vspace{2cm}
+    {\large \today\par}
+\end{titlepage} 
+
+% -------------------- Input Files --------------------
+\input{files/A_1}
+\input{files/A_2}
+\input{files/B_1}
+\input{files/B_2}
+\input{files/C_1}
+\input{files/C_2}
+
+\end{document}
